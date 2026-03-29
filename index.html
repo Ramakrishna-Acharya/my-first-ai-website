@@ -1,141 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ram Acharya | Engineering Leader</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FirstQlik</title>
+
+  <!-- Modern Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
-      background: #0f172a;
-      color: #e2e8f0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
     }
+
+    body {
+      background: #0b0f19;
+      color: #e8ecf1;
+      line-height: 1.6;
+    }
+
     header {
+      padding: 80px 20px 40px;
       text-align: center;
-      padding: 60px 20px;
-      background: #020617;
+      background: radial-gradient(circle at top, #1a2238, #0b0f19);
     }
-    h1 { font-size: 42px; margin: 0; }
-    h2 { color: #38bdf8; }
-    section {
-      padding: 40px;
-      max-width: 900px;
+
+    header h1 {
+      font-size: 48px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #a9b4c0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: #11182a;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1000px;
       margin: auto;
+      padding: 40px 20px;
     }
+
     .card {
-      background: #1e293b;
+      background: #121a2b;
       padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
+      border-radius: 14px;
+      margin-bottom: 20px;
+      border: 1px solid #1f2a44;
     }
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #ffffff;
+    }
+
+    p {
+      color: #b8c2cc;
+      font-size: 15px;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+      color: #b8c2cc;
+    }
+
     footer {
       text-align: center;
-      padding: 20px;
-      background: #020617;
-      margin-top: 40px;
+      padding: 40px;
+      font-size: 13px;
+      color: #6b7280;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 4px 10px;
+      background: #1f2a44;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #93c5fd;
     }
   </style>
 </head>
+
 <body>
 
-<header>
   <header>
-  <h1>FirstQlik</h1>
-  <p>Your first stop for practical technology decisions in the AI era</p>
-</header>
-<section>
-  <h2>What is FirstQlik?</h2>
-  <div class="card">
-    <p>
-      FirstQlik is a platform designed for technology leaders, architects,
-      and decision-makers navigating an increasingly complex technology landscape.
-    </p>
-    <p>
-      From AI adoption to architecture decisions, the goal is simple:
-      provide clarity, practical insights, and real-world guidance.
-    </p>
+    <h1>FirstQlik</h1>
+    <p>Your first stop for practical technology decisions in the AI era</p>
+    <div class="tag">Built for Architects • Leaders • Thinkers</div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#purpose">Purpose</a>
+    <a href="#insights">Insights</a>
+    <a href="#playbooks">Playbooks</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="about" class="card">
+      <h2>What is FirstQlik?</h2>
+      <p>
+        FirstQlik is a thinking platform for technology leaders navigating
+        complex architecture, AI adoption, and engineering decisions.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Who is it for?</h2>
+      <p>
+        Engineers, architects, and technology leaders who want clarity
+        in decision-making and real-world guidance.
+      </p>
+    </section>
+
+    <section id="purpose" class="card">
+      <h2>Purpose</h2>
+      <p>
+        To simplify technology choices and provide structured thinking
+        in an increasingly complex digital world.
+      </p>
+    </section>
+
+    <section id="insights" class="card">
+      <h2>Insights</h2>
+      <ul>
+        <li>AI in Enterprise Architecture</li>
+        <li>Cloud Decision Patterns</li>
+        <li>Security & Governance thinking</li>
+      </ul>
+    </section>
+
+    <section id="playbooks" class="card">
+      <h2>Playbooks (Coming Soon)</h2>
+      <p>
+        Practical decision guides like:
+        when to use what technology, architecture patterns,
+        and leadership frameworks.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        A technology leader with 20+ years of experience in engineering,
+        architecture, and transformation across global organizations.
+      </p>
+    </section>
+
   </div>
 
-  <h2>Who is this for?</h2>
-  <div class="card">
-    <p>
-      Engineering leaders, architects, and professionals who want to
-      make informed, practical, and future-ready technology decisions.
-    </p>
-  </div>
-
-  <h2>What you will find here</h2>
-  <div class="card">
-    <ul>
-      <li>AI insights for leaders</li>
-      <li>Architecture decision guides</li>
-      <li>Technology playbooks</li>
-      <li>Real-world learnings</li>
-    </ul>
-  </div>
-</section>
-<section>
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      Engineering Leader with 23+ Years Experience | Now Exploring the Future with Artificial Intelligence
-    </p>
-  </div>
-
-  <h2>My AI Journey</h2>
-  <div class="card">
-    <p>
-      I'm exploring AI to help others to learn, build meaningful solutions and in the process enrich my knowledge.
-    </p>
-  </div>
-
-<h2>AI Insights & Learnings</h2>
-
-<div class="card">
-  <p>
-After more than two decades in engineering leadership, stepping into AI
-has been a humbling experience. This is not about becoming a programmer again,
-but about rethinking how technology decisions are made.
-
-AI challenges traditional assumptions—it accelerates problem-solving,
-changes architecture patterns, and forces leaders to think differently.
-
-My journey is not about mastering algorithms, but about understanding
-where AI fits into real-world systems and how it can create meaningful impact.
-
-</p>
-  <p>
-    As a technology leader with over two decades of experience, stepping into AI
-    is not about coding—it is about understanding possibilities. This journey is
-    about staying relevant and building practical knowledge.
-  </p>
-</div>
-
-<div class="card">
-  <h3>Why AI is Different</h3>
-  <p>
-    Unlike previous technology waves, AI is not just a tool—it is a collaborator.
-    It changes how we think, design, and build systems.
-  </p>
-</div>
-
-<div class="card">
-  <h3>What Leaders Must Learn About AI</h3>
-  <p>
-    Leaders don’t need to become coders, but they must understand how AI impacts
-    architecture, decision-making, and business outcomes.
-  </p>
-</div>
-
-  <h2>Contact</h2>
-  <div class="card">
-    <p>Email: your-email@example.com</p>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Ram Acharya</p>
-</footer>
+  <footer>
+    © 2026 FirstQlik — Built for thinkers, architects, and leaders
+  </footer>
 
 </body>
 </html>
